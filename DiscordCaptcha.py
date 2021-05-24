@@ -14,7 +14,7 @@ class Client(discord.Client):
 
     async def on_ready(self):
         print('Logged on as {0}!'.format(self.user))
-        game = discord.Game("Captcha verification.")
+        game = discord.Game("CODED BY TDDC DEVS")
         await client.change_presence(status=discord.Status.online, activity=game)
 
     def load_captchas(self):
